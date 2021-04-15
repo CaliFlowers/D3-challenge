@@ -8,6 +8,8 @@ Data-Driven Documents or D3 is a Javascript Library that enables the manipulatio
 
 Scalable Vector Graphics are a type of data visualization in Javascript made possible by the D3 library. While Plotly allows a data analyst to pass data through a function and render pre-defined graphs with if provided with appropriate arguments; D3 can create an SVG element and pass data to it; it can also add new HTML elements within an SVG element using data as attributes, text, or features which allows a savvy programmer to create unique visualizations with their data where imagination is the limit. 
 
+![](Images/4-scatter.jpg)
+
 ## Project Description
 This project is fairly straightforward in that it merely entils the creation of a simple labeled scatterplot using state-level data on health-risk indices. This data is passed into Javscript through a CSV-promise chain in D3. The promise chain extracts 50 data objects with several entries. For the purposes of this project, the entries of interest were access to healthcare, and poverty rate at the state level. D3 targets the html file; then selects an HTML div tag intended to cntain a chart. Into this div tag, D3 appends an SVG element. The project then uses D3 to do the following steps: 
 
